@@ -27,5 +27,4 @@ use Illuminate\Support\Facades\Route;
 //Route::get('profile', function () {
  //   return view('profile');
 //});
-route::get('/', [mahasiswaController::class,'index']);
-route::get('/', [mahasiswaController::class,'home']);
+route::resource('mahasiswa',mahasiswaController::class);
